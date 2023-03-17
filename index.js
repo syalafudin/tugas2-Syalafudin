@@ -18,10 +18,8 @@ function tampilkanData() {
   document.getElementById("email-input").value = email;
 }
 
-// Panggil fungsi tampilkanData saat halaman selesai dimuat
 window.onload = tampilkanData;
 
-// Simpan data yang diubah pada form dan tampilkan di HTML
 function simpanForm(event) {
   event.preventDefault();
 
@@ -42,14 +40,12 @@ function simpanForm(event) {
   document.getElementById("email-profil").textContent = email;
 }
 
-// Tambahkan event listener untuk submit button
 document.querySelector("form").addEventListener("submit", simpanForm);
 
 const editButton = document.getElementById('edit-btn');
 const formSection = document.getElementById('form');
 
 editButton.addEventListener('click', () => {
-  // tampilkan form
   formSection.style.display = 'block';
 });
 
