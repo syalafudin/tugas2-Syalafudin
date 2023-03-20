@@ -1,4 +1,4 @@
-
+// alert('selamat datang, semoga harimu menyenangkan!');
 
 function tampilkanData() {
   const nama = document.getElementById("nama-profil").textContent;
