@@ -107,13 +107,22 @@ nav {
   }
 }
 
-img {
+/* img {
   float: left;
   width: 150px;
-  
+} */
 
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #dfdfdf;
+  float: left;
 }
-
+input[type=file]{
+  text-align: left;
+}
 
 @media (min-width:992px) {
   .selector {

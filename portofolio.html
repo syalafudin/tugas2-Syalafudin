@@ -44,14 +44,16 @@
     <section id="profile">
         <div class="flex-container">
             <div class="flex-item-left">
-                <figure class="avatar-box">
-                    <img src="assets/dev.png" style="padding-left: 15px;width: 160px;height: 160px;" alt="pemrograman">
+                <figure>
+                    <img src="assets/20SA1109.ico">
                 </figure>
+        
                 <h4 id="nama-profil">Syalafudin Firman Syah</h4>
                 <p id="role-profil">front end design</p>
                 <button id="edit-btn" class="button">Edit</button>
                 <button class="button">Resume</button>
             </div>
+
             <div class="flex-item-right">
                 <table style="width:70%;border-collapse: inherit;">
                     <tr>
@@ -81,9 +83,11 @@
 
 
     <section id="form">
-        <!-- <div class="flex-container"> -->
         <div class="container-fluid" style="width: 98%; padding: 25px 25px">
             <form style="margin: 5px 10px;padding: 5px 10px;">
+                <div class="input-group">
+                    <input type="file" id="img" name="img" accept="image/*" required data-form-input>
+                </div>
                 <div class="input-group">
                     <label for="nama" style="color: black;-webkit-text-stroke: medium;">Nama</label>
                     <input type="text" id="nama-input" name="nama" required data-form-input><br>

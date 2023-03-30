@@ -1,5 +1,11 @@
 // alert('selamat datang, semoga harimu menyenangkan!');
 
+const image = document.querySelector("img"),
+input = document.querySelector("input");
+input.addEventListener("change", () =>{
+  image.src = URL.createObjectURL(input.files[0]);
+});
+
 function tampilkanData() {
   const nama = document.getElementById("nama-profil").textContent;
   const role = document.getElementById("role-profil").textContent;
